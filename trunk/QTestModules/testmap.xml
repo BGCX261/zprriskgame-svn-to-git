@@ -1,0 +1,50 @@
+<!DOCTYPE RiskMap>
+<map>
+
+<continent>
+	<info name="FirstCont" bonus="1"/>
+	<territory>
+		<info id="0" name="Id0"/>
+		
+		<point x="0" y="0"/>
+		
+		<neighbour id="1"/>
+		<neighbour id="2"/>
+		<neighbour id="3"/>
+
+	</territory>
+	<territory>
+		<info id="1" name="Id1"/>
+		
+		<point x="0" y="0"/>
+		<point x="0" y="0"/>
+		
+		<neighbour id="0"/>
+		<neighbour id="2"/>
+	</territory>
+</continent>
+<continent>
+	<info name="SecondCont" bonus="2"/>
+	<territory>
+		<info id="2" name="Id2"/>
+		
+		<point x="0" y="0"/>
+		<point x="0" y="0"/>
+		<point x="0" y="0"/>
+
+		<neighbour id="0"/>
+		<neighbour id="1"/>
+	</territory>
+	<territory>
+		<info id="3" name="Id3"/>
+		
+		<point x="0" y="0"/>
+		<point x="0" y="0"/>
+		<point x="0" y="0"/>
+		<point x="0" y="0"/>
+		
+		<neighbour id="0"/>
+	</territory>
+</continent>
+</map>
+

@@ -1,0 +1,871 @@
+<!DOCTYPE RiskMap>
+<map>
+
+
+<continent>
+	<info name="Africa" bonus="6"/>
+	<territory>
+		<info id="5" name="North Africa"/>
+		
+		<point x="390" y="228"/>
+		<point x="405" y="226"/>
+		<point x="406" y="210"/>
+		<point x="420" y="201"/>
+		<point x="425" y="174"/>
+		<point x="388" y="159"/>
+		<point x="393" y="137"/>
+		<point x="390" y="125"/>
+		<point x="349" y="128"/>
+		<point x="320" y="166"/>
+		<point x="321" y="198"/>
+		<point x="340" y="218"/>
+		<point x="384" y="218"/>
+		
+		<neighbour id="1"/>
+		<neighbour id="2"/>
+		<neighbour id="3"/>
+		<neighbour id="17"/>
+	</territory>
+	<territory>
+		<info id="3" name="Egypt"/>
+		
+		<point x="388" y="159"/>
+		<point x="425" y="174"/>
+		<point x="456" y="166"/>
+		<point x="444" y="144"/>
+		<point x="393" y="137"/>
+		
+		<neighbour id="2"/>
+		<neighbour id="5"/>
+		<neighbour id="37"/>
+		<neighbour id="28"/>
+	</territory>
+	<territory>
+		<info id="2" name="East Africa"/>
+		
+		<point x="420" y="201"/>
+		<point x="454" y="222"/>
+		<point x="440" y="255"/>
+		<point x="472" y="266"/>
+		<point x="476" y="235"/>
+		<point x="498" y="199"/>
+		<point x="481" y="202"/>
+		<point x="456" y="166"/>
+		<point x="425" y="174"/>
+		
+		<neighbour id="1"/>
+		<neighbour id="3"/>
+		<neighbour id="4"/>
+		<neighbour id="5"/>
+		<neighbour id="6"/>
+		<neighbour id="37"/>
+	</territory>
+	<territory>
+		<info id="1" name="Congo"/>
+		
+		<point x="390" y="228"/>
+		<point x="396" y="250"/>
+		<point x="436" y="268"/>
+		<point x="440" y="255"/>
+		<point x="454" y="222"/>
+		<point x="420" y="201"/>
+		<point x="406" y="210"/>
+		<point x="405" y="226"/>
+		
+		<neighbour id="2"/>
+		<neighbour id="3"/>
+		<neighbour id="5"/>
+		<neighbour id="6"/>
+	</territory>
+	<territory>
+		<info id="6" name="South Africa"/>
+		
+		<point x="396" y="250"/>
+		<point x="400" y="309"/>
+		<point x="416" y="326"/>
+		<point x="439" y="328"/>
+		<point x="472" y="266"/>
+		<point x="440" y="255"/>
+		<point x="436" y="268"/>
+		
+		<neighbour id="1"/>
+		<neighbour id="2"/>
+		<neighbour id="4"/>
+	</territory>
+	<territory>
+		<info id="4" name="Madagascar"/>
+		
+		<point x="478" y="306"/>
+		<point x="488" y="305"/>
+		<point x="495" y="270"/>
+		<point x="481" y="282"/>
+		
+		<neighbour id="2"/>
+		<neighbour id="6"/>
+	</territory>
+</continent>
+
+<continent>
+	<info name="North America" bonus="9"/>
+	<territory>
+		<info id="7" name="Alaska"/>
+		
+		<point x="15" y="65"/>
+		<point x="63" y="58"/>
+		<point x="92" y="34"/>x
+		<point x="38" y="36"/>
+		
+		<neighbour id="11"/>
+		<neighbour id="8"/>
+		<neighbour id="36"/>
+	</territory>
+	<territory>
+		<info id="8" name="Alberta"/>
+		
+		<point x="72" y="88"/>
+		<point x="122" y="88"/>
+		<point x="142" y="60"/>
+		<point x="63" y="58"/>
+		
+		<neighbour id="7"/>
+		<neighbour id="11"/>
+		<neighbour id="14"/>
+		<neighbour id="12"/>
+	</territory>
+	<territory>
+		<info id="11" name="Northwest Territory"/>
+		
+		<point x="63" y="58"/>
+		<point x="142" y="60"/>
+		<point x="158" y="60"/>
+		<point x="190" y="34"/>
+		<point x="92" y="34"/>
+		
+		<neighbour id="10"/>
+		<neighbour id="12"/>
+		<neighbour id="8"/>
+		<neighbour id="7"/>
+	</territory>
+	<territory>
+		<info id="14" name="Western United States"/>
+		
+		<point x="54" y="114"/>
+		<point x="60" y="136"/>
+		<point x="94" y="140"/>
+		<point x="100" y="124"/>
+		<point x="124" y="124"/>
+		<point x="130" y="88"/>
+		<point x="122" y="88"/>
+		<point x="72" y="88"/>
+		
+		<neighbour id="8"/>
+		<neighbour id="12"/>
+		<neighbour id="15"/>
+		<neighbour id="9"/>
+	</territory>
+	<territory>
+		<info id="12" name="Ontario"/>
+		
+		<point x="122" y="88"/>
+		<point x="130" y="88"/>
+		<point x="142" y="88"/>
+		<point x="164" y="106"/>
+		<point x="180" y="98"/>
+		<point x="168" y="87"/>
+		<point x="180" y="81"/>
+		<point x="158" y="60"/>
+		<point x="142" y="60"/>
+		
+		<neighbour id="10"/>
+		<neighbour id="13"/>
+		<neighbour id="15"/>
+		<neighbour id="14"/>
+		<neighbour id="8"/>
+		<neighbour id="11"/>
+	</territory>
+	<territory>
+		<info id="13" name="Quebec"/>
+		
+		<point x="180" y="81"/>
+		<point x="168" y="87"/>
+		<point x="180" y="98"/>
+		<point x="220" y="96"/>
+		<point x="230" y="74"/>
+		<point x="204" y="52"/>
+		
+		<neighbour id="12"/>
+		<neighbour id="15"/>
+		<neighbour id="10"/>
+	</territory>
+	<territory>
+		<info id="10" name="Greenland"/>
+		
+		<point x="248" y="14"/>
+		<point x="260" y="18"/>
+		<point x="270" y="34"/>
+		<point x="261" y="49"/>
+		<point x="274" y="56"/>
+		<point x="318" y="34"/>
+		<point x="338" y="6"/>
+		
+		<neighbour id="11"/>
+		<neighbour id="12"/>
+		<neighbour id="13"/>
+		<neighbour id="25"/>
+	</territory>
+	<territory>
+		<info id="15" name="Eastern United States"/>
+		
+		<point x="94" y="140"/>
+		<point x="106" y="152"/>
+		<point x="143" y="143"/>
+		<point x="150" y="157"/>
+		<point x="153" y="156"/>
+		<point x="152" y="141"/>
+		<point x="220" y="96"/>
+		<point x="180" y="98"/>
+		<point x="164" y="106"/>
+		<point x="142" y="88"/>
+		<point x="130" y="88"/>
+		<point x="124" y="124"/>
+		<point x="100" y="124"/>
+		
+		<neighbour id="13"/>
+		<neighbour id="12"/>
+		<neighbour id="14"/>
+		<neighbour id="9"/>
+	</territory>
+	<territory>
+		<info id="9" name="Central America"/>
+		
+		<point x="60" y="136"/>
+		<point x="68" y="165"/>
+		<point x="68" y="142"/>
+		<point x="82" y="174"/>
+		<point x="122" y="194"/>
+		<point x="150" y="212"/>
+		<point x="154" y="208"/>
+		<point x="136" y="196"/>
+		<point x="136" y="187"/>
+		<point x="124" y="184"/>
+		<point x="127" y="171"/>
+		<point x="108" y="176"/>
+		<point x="106" y="152"/>
+		<point x="94" y="140"/>
+		
+		<neighbour id="15"/>
+		<neighbour id="14"/>
+		<neighbour id="19"/>
+	</territory>
+</continent>
+
+<continent>
+	<info name="South America" bonus="4"/>
+	<territory>
+		<info id="16" name="Argentina"/>
+		
+		<point x="176" y="296"/>
+		<point x="178" y="350"/>
+		<point x="204" y="388"/>
+		<point x="221" y="356"/>
+		<point x="228" y="326"/>
+		<point x="216" y="308"/>
+		
+		<neighbour id="17"/>
+		<neighbour id="18"/>
+	</territory>
+	<territory>
+		<info id="17" name="Brazil"/>
+		
+		<point x="216" y="308"/>
+		<point x="228" y="326"/>
+		<point x="268" y="250"/>
+		<point x="218" y="221"/>
+		<point x="172" y="242"/>
+		<point x="171" y="262"/>
+		
+		<neighbour id="16"/>
+		<neighbour id="18"/>
+		<neighbour id="19"/>
+		<neighbour id="5"/>
+	</territory>
+	<territory>
+		<info id="18" name="Peru"/>
+		
+		<point x="176" y="296"/>
+		<point x="216" y="308"/>
+		<point x="171" y="262"/>
+		<point x="172" y="242"/>
+		<point x="146" y="228"/>
+		<point x="142" y="256"/>
+		
+		<neighbour id="16"/>
+		<neighbour id="17"/>
+		<neighbour id="19"/>
+	</territory>
+	<territory>
+		<info id="19" name="Venezuela"/>
+		
+		<point x="146" y="228"/>
+		<point x="172" y="242"/>
+		<point x="218" y="221"/>
+		<point x="190" y="201"/>
+		<point x="154" y="208"/>
+		<point x="150" y="212"/>
+		
+		<neighbour id="9"/>
+		<neighbour id="18"/>
+		<neighbour id="17"/>
+	</territory>
+</continent>
+
+<continent>
+	<info name="Oceania" bonus="4"/>
+	<territory>
+		<info id="20" name="Eastern Australia"/>
+		
+		<point x="722" y="346"/>
+		<point x="743" y="344"/>
+		<point x="766" y="310"/>
+		<point x="746" y="268"/>
+		<point x="737" y="285"/>
+		<point x="725" y="278"/>
+		<point x="727" y="268"/>
+		<point x="708" y="277"/>
+		<point x="700" y="308"/>
+		<point x="731" y="302"/>
+		
+		<neighbour id="23"/>
+		<neighbour id="22"/>
+	</territory>
+	<territory>
+		<info id="23" name="Western Australia"/>
+		
+		<point x="662" y="335"/>
+		<point x="707" y="327"/>
+		<point x="722" y="346"/>
+		<point x="731" y="302"/>
+		<point x="700" y="308"/>
+		<point x="708" y="277"/>
+		<point x="704" y="274"/>
+		<point x="685" y="292"/>
+		<point x="664" y="300"/>
+		
+		<neighbour id="20"/>
+		<neighbour id="21"/>
+		<neighbour id="22"/>
+	</territory>
+	<territory>
+		<info id="22" name="New Guinea"/>
+		
+		<point x="728" y="246"/>
+		<point x="746" y="260"/>
+		<point x="755" y="256"/>
+		<point x="770" y="264"/>
+		<point x="758" y="248"/>
+		<point x="736" y="237"/>
+		
+		<neighbour id="20"/>
+		<neighbour id="21"/>
+		<neighbour id="23"/>
+	</territory>
+	<territory>
+		<info id="21" name="Indonesia"/>
+		
+		<point x="662" y="242"/>
+		<point x="676" y="242"/>
+		<point x="683" y="230"/>
+		<point x="680" y="222"/>
+		<point x="684" y="218"/>
+		<point x="678" y="213"/>
+		<point x="658" y="229"/>
+		
+		<neighbour id="22"/>
+		<neighbour id="23"/>
+		<neighbour id="39"/>
+	</territory>
+</continent>
+
+<continent>
+	<info name="Europe" bonus="7"/>
+	<territory>
+		<info id="29" name="Western Europe"/>
+		
+		<point x="341" y="116"/>
+		<point x="349" y="126"/>
+		<point x="362" y="120"/>
+		<point x="372" y="108"/>
+		<point x="383" y="108"/>
+		<point x="380" y="97"/>
+		<point x="384" y="91"/>
+		<point x="372" y="83"/>
+		<point x="355" y="90"/>
+		<point x="362" y="94"/>
+		<point x="362" y="106"/>
+		<point x="344" y="105"/>
+		
+		<neighbour id="28"/>
+		<neighbour id="26"/>
+		<neighbour id="24"/>
+	</territory>
+	<territory>
+		<info id="26" name="Northern Europe"/>
+		
+		<point x="372" y="83"/>
+		<point x="384" y="91"/>
+		<point x="408" y="91"/>
+		<point x="405" y="95"/>
+		<point x="423" y="90"/>
+		<point x="415" y="76"/>
+		<point x="392" y="74"/>
+		<point x="388" y="67"/>
+		<point x="386" y="74"/>
+		
+		<neighbour id="24"/>
+		<neighbour id="27"/>
+		<neighbour id="29"/>
+		<neighbour id="28"/>
+		<neighbour id="30"/>
+	</territory>
+	<territory>
+		<info id="27" name="Scandinavia"/>
+		
+		<point x="382" y="66"/>
+		<point x="390" y="64"/>
+		<point x="398" y="72"/>
+		<point x="407" y="64"/>
+		<point x="403" y="58"/>
+		<point x="417" y="48"/>
+		<point x="414" y="59"/>
+		<point x="430" y="61"/>
+		<point x="429" y="36"/>
+		<point x="422" y="34"/>
+		<point x="412" y="35"/>
+		<point x="390" y="53"/>
+		<point x="380" y="58"/>
+		
+		<neighbour id="25"/>
+		<neighbour id="26"/>
+		<neighbour id="30"/>
+	</territory>
+	<territory>
+		<info id="30" name="Ukraine"/>
+		
+		<point x="415" y="76"/>
+		<point x="423" y="90"/>
+		<point x="434" y="104"/>
+		<point x="442" y="99"/>
+		<point x="448" y="109"/>
+		<point x="455" y="98"/>
+		<point x="458" y="105"/>
+		<point x="467" y="114"/>
+		<point x="487" y="124"/>
+		<point x="478" y="106"/>
+		<point x="484" y="101"/>
+		<point x="476" y="93"/>
+		<point x="484" y="86"/>
+		<point x="507" y="89"/>
+		<point x="489" y="53"/>
+		<point x="498" y="46"/>
+		<point x="494" y="38"/>
+		<point x="446" y="54"/>
+		<point x="436" y="44"/>
+		<point x="450" y="44"/>
+		<point x="429" y="36"/>
+		<point x="430" y="61"/>
+		<point x="418" y="66"/>
+		
+		<neighbour id="27"/>
+		<neighbour id="26"/>
+		<neighbour id="28"/>
+		<neighbour id="41"/>
+		<neighbour id="31"/>
+		<neighbour id="37"/>
+	</territory>
+	<territory>
+		<info id="28" name="Southern Europe"/>
+		
+		<point x="383" y="108"/>
+		<point x="388" y="106"/>
+		<point x="402" y="114"/>
+		<point x="403" y="120"/>
+		<point x="397" y="121"/>
+		<point x="402" y="124"/>
+		<point x="404" y="120"/>
+		<point x="406" y="115"/>
+		<point x="410" y="113"/>
+		<point x="394" y="104"/>
+		<point x="398" y="102"/>
+		<point x="412" y="113"/>
+		<point x="414" y="121"/>
+		<point x="421" y="124"/>
+		<point x="418" y="125"/>
+		<point x="421" y="128"/>
+		<point x="423" y="124"/>
+		<point x="420" y="120"/>
+		<point x="434" y="116"/>
+		<point x="434" y="104"/>
+		<point x="423" y="90"/>
+		<point x="405" y="95"/>
+		<point x="408" y="91"/>
+		<point x="384" y="91"/>
+		<point x="380" y="97"/>
+		
+		<neighbour id="29"/>
+		<neighbour id="26"/>
+		<neighbour id="30"/>
+		<neighbour id="37"/>
+		<neighbour id="3"/>
+	</territory>
+	<territory>
+		<info id="24" name="Great Britain"/>
+		
+		<point x="344" y="85"/>
+		<point x="351" y="83"/>
+		<point x="354" y="75"/>
+		<point x="358" y="76"/>
+		<point x="360" y="81"/>
+		<point x="356" y="82"/>
+		<point x="355" y="85"/>
+		<point x="359" y="86"/>
+		<point x="356" y="90"/>
+		<point x="368" y="85"/>
+		<point x="361" y="74"/>
+		<point x="358" y="72"/>
+		<point x="360" y="69"/>
+		<point x="354" y="71"/>
+		<point x="354" y="74"/>
+		<point x="343" y="78"/>
+		
+		<neighbour id="29"/>
+		<neighbour id="26"/>
+		<neighbour id="27"/>
+	</territory>
+	<territory>
+		<info id="25" name="Iceland"/>
+		
+		<point x="328" y="54"/>
+		<point x="340" y="48"/>
+		<point x="320" y="50"/>
+		
+		<neighbour id="27"/>
+		<neighbour id="24"/>
+		<neighbour id="10"/>
+	</territory>
+</continent>
+
+<continent>
+	<info name="Asia" bonus="12"/>
+	<territory>
+		<info id="31" name="Afghanistan"/>
+		
+		<point x="507" y="89"/>
+		<point x="484" y="86"/>
+		<point x="476" y="93"/>
+		<point x="484" y="101"/>
+		<point x="492" y="100"/>
+		<point x="501" y="128"/>
+		<point x="521" y="133"/>
+		<point x="554" y="127"/>
+		<point x="563" y="100"/>
+		<point x="538" y="78"/>
+		
+		<neighbour id="41"/>
+		<neighbour id="32"/>
+		<neighbour id="33"/>
+		<neighbour id="37"/>
+		<neighbour id="30"/>
+	</territory>
+	<territory>
+		<info id="32" name="China"/>
+		
+		<point x="563" y="100"/>
+		<point x="554" y="127"/>
+		<point x="618" y="157"/>
+		<point x="645" y="177"/>
+		<point x="661" y="174"/>
+		<point x="681" y="148"/>
+		<point x="662" y="120"/>
+		<point x="615" y="120"/>
+		<point x="574" y="92"/>
+		<point x="568" y="95"/>
+		
+		<neighbour id="38"/>
+		<neighbour id="40"/>
+		<neighbour id="41"/>
+		<neighbour id="31"/>
+		<neighbour id="33"/>
+	</territory>
+	<territory>
+		<info id="33" name="India"/>
+		
+		<point x="521" y="133"/>
+		<point x="525" y="162"/>
+		<point x="550" y="170"/>
+		<point x="571" y="212"/>
+		<point x="602" y="171"/>
+		<point x="618" y="157"/>
+		<point x="554" y="127"/>
+		
+		<neighbour id="39"/>
+		<neighbour id="32"/>
+		<neighbour id="31"/>
+		<neighbour id="37"/>
+	</territory>
+	<territory>
+		<info id="37" name="Middle East"/>
+		
+		<point x="434" y="116"/>
+		<point x="435" y="130"/>
+		<point x="454" y="128"/>
+		<point x="444" y="144"/>
+		<point x="482" y="200"/>
+		<point x="520" y="172"/>
+		<point x="510" y="163"/>
+		<point x="501" y="166"/>
+		<point x="488" y="152"/>
+		<point x="491" y="146"/>
+		<point x="501" y="156"/>
+		<point x="525" y="162"/>
+		<point x="521" y="133"/>
+		<point x="501" y="128"/>
+		<point x="487" y="124"/>
+		<point x="467" y="114"/>
+		
+		<neighbour id="33"/>
+		<neighbour id="31"/>
+		<neighbour id="3"/>
+		<neighbour id="2"/>
+		<neighbour id="28"/>
+		<neighbour id="30"/>
+	</territory>
+	<territory>
+		<info id="39" name="Siam"/>
+		
+		<point x="602" y="171"/>
+		<point x="644" y="208"/>
+		<point x="656" y="201"/>
+		<point x="645" y="177"/>
+		<point x="618" y="157"/>
+		
+		<neighbour id="33"/>
+		<neighbour id="32"/>
+		<neighbour id="21"/>
+	</territory>
+	<territory>
+		<info id="38" name="Mongolia"/>
+		
+		<point x="574" y="92"/>
+		<point x="615" y="120"/>
+		<point x="662" y="120"/>
+		<point x="686" y="125"/>
+		<point x="689" y="105"/>
+		<point x="674" y="94"/>
+		
+		<neighbour id="32"/>
+		<neighbour id="34"/>
+		<neighbour id="36"/>
+		<neighbour id="35"/>
+	</territory>
+	<territory>
+		<info id="34" name="Irkutsk"/>
+		
+		<point x="574" y="92"/>
+		<point x="674" y="94"/>
+		<point x="660" y="74"/>
+		<point x="594" y="53"/>
+		
+		<neighbour id="36"/>
+		<neighbour id="42"/>
+		<neighbour id="40"/>
+		<neighbour id="38"/>
+	</territory>
+	<territory>
+		<info id="42" name="Yakutsk"/>
+		
+		<point x="594" y="53"/>
+		<point x="660" y="74"/>
+		<point x="689" y="38"/>
+		<point x="578" y="29"/>
+		
+		<neighbour id="40"/>
+		<neighbour id="34"/>
+		<neighbour id="36"/>
+	</territory>
+	<territory>
+		<info id="40" name="Siberia"/>
+		
+		<point x="521" y="31"/>
+		<point x="548" y="55"/>
+		<point x="568" y="95"/>
+		<point x="574" y="92"/>
+		<point x="594" y="53"/>
+		<point x="578" y="29"/>
+		<point x="556" y="19"/>
+		
+		<neighbour id="41"/>
+		<neighbour id="32"/>
+		<neighbour id="34"/>
+		<neighbour id="42"/>
+	</territory>
+	<territory>
+		<info id="36" name="Kamchatka"/>
+		
+		<point x="660" y="74"/>
+		<point x="674" y="94"/>
+		<point x="689" y="105"/>
+		<point x="698" y="91"/>
+		<point x="674" y="76"/>
+		<point x="679" y="65"/>
+		<point x="716" y="54"/>
+		<point x="715" y="71"/>
+		<point x="732" y="86"/>
+		<point x="732" y="74"/>
+		<point x="724" y="64"/>
+		<point x="754" y="50"/>
+		<point x="689" y="38"/>
+		
+		<neighbour id="42"/>
+		<neighbour id="34"/>
+		<neighbour id="38"/>
+		<neighbour id="35"/>
+		<neighbour id="7"/>
+	</territory>
+	<territory>
+		<info id="41" name="Ural"/>
+		
+		<point x="494" y="38"/>
+		<point x="498" y="46"/>
+		<point x="489" y="53"/>
+		<point x="507" y="89"/>
+		<point x="538" y="78"/>
+		<point x="563" y="100"/>
+		<point x="568" y="95"/>
+		<point x="548" y="55"/>
+		<point x="521" y="31"/>
+		
+		<neighbour id="40"/>
+		<neighbour id="32"/>
+		<neighbour id="31"/>
+		<neighbour id="30"/>
+	</territory>
+	<territory>
+		<info id="35" name="Japan"/>
+		
+		<point x="702" y="137"/>
+		<point x="718" y="135"/>
+		<point x="722" y="123"/>
+		<point x="714" y="111"/>
+		<point x="716" y="126"/>
+		<point x="710" y="131"/>
+		
+		<neighbour id="36"/>
+		<neighbour id="38"/>
+	</territory>
+</continent>
+
+<connection>
+	<point x="254" y="252"/>
+	<point x="326" y="198"/>
+</connection>
+<connection>
+	<point x="450" y="296"/>
+	<point x="484" y="296"/>
+</connection>
+<connection>
+	<point x="466" y="242"/>
+	<point x="490" y="284"/>
+</connection>
+<connection>
+	<point x="464" y="190"/>
+	<point x="476" y="178"/>
+</connection>
+<connection>
+	<point x="420" y="152"/>
+	<point x="420" y="110"/>
+</connection>
+<connection>
+	<point x="25" y="60"/>
+	<point x="0" y="60"/>
+</connection>
+<connection>
+	<point x="676" y="115"/>
+	<point x="712" y="125"/>
+</connection>
+<connection>
+	<point x="692" y="98"/>
+	<point x="712" y="125"/>
+</connection>
+<connection>
+	<point x="274" y="50"/>
+	<point x="218" y="74"/>
+</connection>
+<connection>
+	<point x="252" y="16"/>
+	<point x="160" y="73"/>
+</connection>
+<connection>
+	<point x="252" y="16"/>
+	<point x="170" y="46"/>
+</connection>
+<connection>
+	<point x="329" y="50"/>
+	<point x="310" y="32"/>
+</connection>
+<connection>
+	<point x="329" y="50"/>
+	<point x="310" y="32"/>
+</connection>
+<connection>
+	<point x="329" y="50"/>
+	<point x="356" y="73"/>
+</connection>
+<connection>
+	<point x="329" y="50"/>
+	<point x="386" y="59"/>
+</connection>
+<connection>
+	<point x="363" y="82"/>
+	<point x="386" y="59"/>
+</connection>
+<connection>
+	<point x="363" y="82"/>
+	<point x="382" y="85"/>
+</connection>
+<connection>
+	<point x="363" y="82"/>
+	<point x="366" y="95"/>
+</connection>
+<connection>
+	<point x="400" y="84"/>
+	<point x="400" y="68"/>
+</connection>
+<connection>
+	<point x="354" y="120"/>
+	<point x="354" y="144"/>
+</connection>
+<connection>
+	<point x="672" y="232"/>
+	<point x="646" y="202"/>
+</connection>
+<connection>
+	<point x="672" y="232"/>
+	<point x="732" y="248"/>
+</connection>
+<connection>
+	<point x="672" y="232"/>
+	<point x="704" y="276"/>
+</connection>
+<connection>
+	<point x="704" y="276"/>
+	<point x="732" y="248"/>
+</connection>
+<connection>
+	<point x="730" y="70"/>
+	<point x="800" y="70"/>
+</connection>
+<connection>
+	<point x="723" y="292"/>
+	<point x="732" y="248"/>
+</connection>
+</map>
